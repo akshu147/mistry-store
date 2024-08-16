@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background: red;
+  border-radius: 50%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+
+}
+header {
+  display: flex;
+  border:1px solid #000000;
+  align-items: center;
+  left: 50%;
+  top:20px;
+  width: 1250px;
+  transform: translatex(-50%);
+  border-radius: 13px;
+  background: #00000046;
+  justify-content: space-between;
+  padding: 8px 15px;
+  z-index: 50;
+  transition: 0.4s;
+}
+header figure {
+  width: 200px;
+  margin: 0;
+}
+header .nav {
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+header .nav .hidediv {
+  display: flex;
+  align-items: center;
+}
+header .nav .hidediv ul li:hover {
+  font-weight: bold;
+  transition: 0.1s;
+
+  
+}
+
+
+header .nav .hidediv ul li {
+  font-size: 16px;
+  margin: 0px 16px;
+}
+
+header .nav .iconbar{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .nav .iconbar button {
+  border:none;
+  background: #E73540;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color:white;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.1s;
+
+}
+header .nav .iconbar button:hover {
+  background: white;
+  color: #E73540;
+
+}
+.actab {
+  color: white;
+  text-decoration: none;
+
+}
+.section-a {
+  background-image: url("./assets/images/trimmed.gif") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+/* overlay of red color for section-a */
+
+.section-a .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.399), transparent);
+  z-index: -1;
+}
+.postr-content {
+  padding-top: 128px;
+  margin: 0px 120px;
+  color:white;
+}
+.section-a h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.section-a p {
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 16px;
+  padding-top: 23px;
+  
+}
+.section-a .iconbar {
+  margin:0px 110px;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 30px;
+}
+.section-a .iconbar div {
+  max-width: 150px;
+  font-weight: bold;
+  padding: 10px;
+}
+.section-a .iconbar div p {
+  font-size: 16px;
+  
+}
+.section-a .buttons {
+  display: flex;
+  margin: 20px 110px;
+  gap:20px;
+  padding-bottom: 50px;
+  
+}
+.section-a .buttons div {
+  background: #E73540;
+  padding: 12px 15px;
+  border-radius: 10px;
+  color:white;
+  font-weight: 400;
+  
+}
+.section-a .buttons div:last-child {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+

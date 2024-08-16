@@ -1,0 +1,117 @@
+
+/* ////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:1200px) {
+    header {
+        width: 1000px;
+    }
+    .postr-content {
+        margin: 0px 90px;
+    }
+    .section-a .iconbar {
+        margin:0px 80px;
+        gap:10px;
+    }
+    .section-a .buttons {
+        margin: 20px 80px;
+    }
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+
+@media only screen and (max-width:1000px) {
+    header {
+        width: 900px;
+    }
+
+    header .nav .hidediv ul li {
+        margin: 0px 10px;
+    }
+    .postr-content {
+        margin: 0px 60px;
+    }
+    .section-a .iconbar {
+        margin:0px 50px;
+        gap:10px;
+    }
+    .section-a .buttons {
+        margin: 20px 60px;
+
+    }
+    .section-a h1 {
+        font-size: 35px;
+    }
+    .section-a .buttons {
+        margin: 20px 60px;
+    }
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:800px) {
+    header{
+        width: 600px;
+    }
+    header .nav .hidediv {
+        display: none;
+    }
+    header .nav .iconbar i:nth-child(2) {
+        display: none;
+    }
+    .postr-content {
+        margin: 0px 40px;
+    }
+    .section-a .iconbar {
+        margin:0px 30px;
+        gap:30px
+    }
+    .section-a .buttons {
+        margin: 20px 40px;
+    }
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:500px) {
+    header {
+        width: 400px;
+    }
+    header figure {
+        width: 150px;
+    }
+    .postr-content {
+        margin: 0px 20px;
+    }
+    .section-a .iconbar {
+        margin:0px 20px;
+        gap:10px;
+    }
+    .section-a .buttons {
+        margin: 20px 20px;
+    }
+
+
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width:400px) {
+    header {
+        width: 300px;
+    }
+    .postr-content {
+        margin: 0px 20px;
+    }
+    .section-a .iconbar {
+        margin:0px 10px;
+        gap:10px;
+    }
+    .section-a .buttons {
+        margin: 20px 20px;
+    }
+    .section-a .buttons {
+        gap: 0px;
+    }
+ 
+    
+}
