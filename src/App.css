@@ -136,7 +136,7 @@ header .nav .iconbar button:hover {
   display: flex;
   margin: 20px 110px;
   gap:20px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
   
 }
 .section-a .buttons div {
@@ -156,4 +156,237 @@ header .nav .iconbar button:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #333333;
+  color:white;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+footer .footer .fitem ul li {
+ 
+  font-weight: 500;
+  line-height: 45px;
+  font-size: 14px;
+}
+footer .footer div p span {
+  font-size: 14px;
+  font-weight: 500;
+}
+footer .footer .fitem figure {
+  width: 250px;
+}
+footer .social-icons {
+  background: #333333;
+  color:white;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  padding: 10px;
+}
+footer .social-icons i {
+  width: 40px;
+}
 

@@ -6,6 +6,7 @@ const Routerlayout = () => {
   return (
     <>
     <Head/>
+
     <Outlet/>
       
     </>

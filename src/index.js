@@ -23,6 +23,7 @@ const routes = createBrowserRouter(
       <Route path='/Blogs' element={<Blog />} />
 
     </Route>
+
   )
 )
 root.render(
